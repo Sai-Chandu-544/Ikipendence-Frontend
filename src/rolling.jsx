@@ -939,8 +939,8 @@ useEffect(() => {
           z-10
           desktop:w-[60px]
           desktop:h-[60px]
-          mobile:w-[40px]
-          mobile:h-[40px]
+          mobile:w-[50px]
+          mobile:h-[50px]
         
           grid
           place-items-center
