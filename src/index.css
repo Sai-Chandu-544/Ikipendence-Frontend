@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+@custom-variant mobile (@media (width <= 700px));
+@custom-variant desktop (@media (width >=750px));
