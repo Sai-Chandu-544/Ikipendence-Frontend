@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import CircularGallery from "./Home_Gallery";
+import CircularGallery from "./Page2";
 
 
 export const GalleryWrapper=()=>{

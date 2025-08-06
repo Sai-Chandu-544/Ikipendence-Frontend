@@ -1,9 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-// import CircularGalleryComponent from "./Home_Gallery";
-import {StateGallery} from "./StateGallery";
-import InfiniteMenu from './rolling'
-import {items} from './items'
+
+import {StateGallery2} from "./StateGallery2";
+import InfiniteMenu from './Page1'
+import {items} from './Page2_Items'
 import {GalleryWrapper} from './responsive'
+
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
                 Journey Through the Colors of Every State
               </p>
             </div>
-
+   
+  
 
         <GalleryWrapper/>
           
@@ -49,9 +51,11 @@ function App() {
           </div>
         }
       />
+      
 
-      {/* Route for individual state grid */}
-      <Route path="/gallery/:state" element={<StateGallery />}/>    
+  
+
+      <Route path="/gallery/:state" element={<StateGallery2 />}/>    
        
     </Routes>
       
